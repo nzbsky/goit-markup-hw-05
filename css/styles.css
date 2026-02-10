@@ -389,7 +389,7 @@ header {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -484,7 +484,7 @@ header {
 
 /* Submit Button */
 .modal-submit-btn {
-  width: 100%;
+  min-width: 169px;
   background-color: var(--accent-color);
   color: #fff;
   font-weight: 500;
@@ -493,6 +493,8 @@ header {
   border: none;
   cursor: pointer;
   transition: background-color var(--transition), box-shadow var(--transition);
+  display: block;
+  margin: 0 auto;
 }
 
 .modal-submit-btn:hover,
