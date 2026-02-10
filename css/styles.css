@@ -392,6 +392,10 @@ header {
   margin-bottom: 8px;
 }
 
+.modal-field.comment-field {
+  margin-bottom: 16px;
+}
+
 .modal-label {
   display: block;
   font-size: 12px;
@@ -454,6 +458,8 @@ header {
   font-size: 12px;
   color: #8e8f99;
   cursor: pointer;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
 }
 
 .checkbox-icon {
@@ -470,10 +476,19 @@ header {
     fill var(--transition);
 }
 
+.checkbox-icon svg {
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
 .modal-checkbox:checked + .privacy-label .checkbox-icon {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: #404bbf;
+  border-color: #404bbf;
   fill: #fff;
+}
+
+.modal-checkbox:checked + .privacy-label .checkbox-icon svg {
+  opacity: 1;
 }
 
 .privacy-label a {
