@@ -527,6 +527,7 @@ header {
 
 .footer-subscribe {
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .footer-subscribe-title {
