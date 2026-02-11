@@ -401,6 +401,8 @@ header {
   font-size: 12px;
   color: #8e8f99;
   margin-bottom: 4px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-input-wrapper {
@@ -429,6 +431,8 @@ header {
   resize: none;
   height: 120px;
   font-family: inherit;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-icon {
