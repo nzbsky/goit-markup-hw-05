@@ -557,6 +557,7 @@ header {
   background-color: transparent;
   color: #fff;
   font-size: 12px;
+  line-height: 2;
   letter-spacing: 0.04em;
   outline: none;
   transition: border-color var(--transition);
@@ -581,6 +582,7 @@ header {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 0.04em;
   transition: background-color var(--transition);
 }
 
