@@ -492,7 +492,7 @@ header {
 .modal-checkbox:checked + .privacy-label .checkbox-icon {
   background-color: #404bbf;
   border-color: #404bbf;
-  fill: #fff;
+  fill: var(--light-color);
 }
 
 .modal-checkbox:checked + .privacy-label .checkbox-icon svg {
@@ -529,14 +529,17 @@ header {
 /* Subscribe Form in Footer */
 .footer-container {
   display: flex;
-  gap: 120px;
-  align-items: flex-start;
+  align-items: baseline;
   flex-wrap: nowrap;
 }
 
 .footer-subscribe {
   flex-shrink: 0;
-  margin-left: auto;
+  margin-left: 80px;
+}
+
+.footer-socials {
+  margin-left: 120px;
 }
 
 .footer-subscribe-title {
@@ -561,6 +564,7 @@ header {
   line-height: 2;
   letter-spacing: 0.04em;
   outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: border-color var(--transition);
 }
 
